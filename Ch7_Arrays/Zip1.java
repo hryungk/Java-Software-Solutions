@@ -32,10 +32,10 @@ public class Zip1
     {
         firstName = first;
         lastName = last;
-        zipCode = address.zipCode;
-        streetAddress = address.streetAddress;
-        city = address.city;
-        state = address.state;
+        zipCode = address.getZip();
+        streetAddress = address.getStreet();
+        city = address.getCity();
+        state = address.getState();
         phoneNum = num;
     }
 
